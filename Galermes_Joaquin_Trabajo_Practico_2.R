@@ -260,6 +260,21 @@ hist(crime_data$Vict.Age,
      col = "lightblue",
      breaks = 30)
 
+# Cierre del trabajo
+# Se realizó un análisis de un dataset de crímenes para poder responder algunas preguntas planteadas en el inicio, 4 con éxito y una restante que no. 
+#A través de un proceso de limpieza y preparación de datos, se logró manejar valores nulos y atípicos, asegurando la integridad del dataset para el análisis.
+
+# Hallazgos principales:
+# Tipos de crímenes más comunes: Se identificaron los 10 tipos de crímenes más frecuentes, destacándose aquellos relacionados con robos y hurtos.
+
+# Áreas con más crímenes: Se observó que ciertas áreas geográficas reportan una mayor incidencia de crímenes, tal como "Central" o "Pacific" lo que podría estar relacionado con factores socioeconómicos o de densidad poblacional.
+
+# Relación entre tipo de crimen y uso de armas: Se encontró que algunos tipos de crímenes, como los robos, están más asociados con el uso de armas (strong-arm), mientras que otros, como los delitos menores, tienden a no involucrarlas.
+
+# Distribución de edades de las víctimas: La mayoría de las víctimas se encuentran en un rango de 20 a 40 años, con una distribución que tiende a ser más joven en ciertos tipos de crímenes.
+
+# Se pueden visualizar patrones y tendencias en la ocurrencia de crímenes, lo que podría ser útil para la implementación de políticas de seguridad pública más efectivas. 
+
 # Guardado de trabajo en entorno R.Data
 save.image("C:/Users/joaquin.galermes/OneDrive - estremar.com/Escritorio/Curso de R/Unidad 2/TP_Modulo_2_Galermes_Joaquin.RData")
 
